@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
-    vendor/coolpad/CP8298_I00/proprietary/etc/ecc_list.xml:system/etc/ecc_list.xml \
     vendor/coolpad/CP8298_I00/proprietary/etc/firmware/catcher_filter_1_lwg_n.bin:system/etc/firmware/catcher_filter_1_lwg_n.bin \
     vendor/coolpad/CP8298_I00/proprietary/etc/firmware/dsp_1_lwg_n.bin:system/etc/firmware/dsp_1_lwg_n.bin \
     vendor/coolpad/CP8298_I00/proprietary/etc/firmware/modem_1_lwg_n.img:system/etc/firmware/modem_1_lwg_n.img \
@@ -299,7 +298,6 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/hw/audio.primary.mt6735.so:system/lib/hw/audio.primary.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/audio.primary.mt6735.so:system/lib64/hw/audio.primary.mt6735.so \
-    vendor/coolpad/CP8298_I00/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
     vendor/coolpad/CP8298_I00/proprietary/bin/meta_tst:system/bin/meta_tst \
     vendor/coolpad/CP8298_I00/proprietary/bin/factory:system/bin/factory \
     vendor/coolpad/CP8298_I00/proprietary/etc/factory.ini:system/etc/factory.ini \
@@ -338,7 +336,6 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/keystore.mt6735.so:system/lib64/hw/keystore.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/gatekeeper.mt6735.so:system/lib64/hw/gatekeeper.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
     vendor/coolpad/CP8298_I00/proprietary/app/mcRegistry/020b0000000000000000000000000000.drbin:system/app/mcRegistry/020b0000000000000000000000000000.drbin \
     vendor/coolpad/CP8298_I00/proprietary/app/mcRegistry/020b0000000000000000000000000000.tlbin:system/app/mcRegistry/020b0000000000000000000000000000.tlbin \
     vendor/coolpad/CP8298_I00/proprietary/app/mcRegistry/020f0000000000000000000000000000.drbin:system/app/mcRegistry/020f0000000000000000000000000000.drbin \
