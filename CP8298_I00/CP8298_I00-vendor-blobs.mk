@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/bin/volte_imcb:system/bin/volte_imcb \
     vendor/coolpad/CP8298_I00/proprietary/bin/volte_stack:system/bin/volte_stack \
     vendor/coolpad/CP8298_I00/proprietary/bin/volte_ua:system/bin/volte_ua \
+    vendor/coolpad/CP8298_I00/proprietary/bin/vtservice:system/bin/vtservice \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_datamngr.so:system/lib64/libmal_datamngr.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmal_epdga.so:system/lib/libmal_epdga.so \
@@ -72,6 +73,23 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_simmngr.so:system/lib64/libmal_simmngr.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/volte_imsm.so:system/lib/volte_imsm.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libamr_wrap.so:system/lib/libamr_wrap.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libamrvt.so:system/lib/libamrvt.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libawb_wrap.so:system/lib/libawb_wrap.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libcomutils.so:system/lib/libcomutils.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libimsma.so:system/lib/libimsma.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libimsma_rtp.so:system/lib/libimsma_rtp.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libimsma_socketwrapper.so:system/lib/libimsma_socketwrapper.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_vt_swip.so:system/lib/libmtk_vt_swip.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_vt_utils.so:system/lib/libmtk_vt_utils.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libsink.so:system/lib/libsink.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libsource.so:system/lib/libsource.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libvt_avsync.so:system/lib/libvt_avsync.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libvt_custom.so:system/lib/libvt_custom.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libvt_socketbind.so:system/lib/libvt_socketbind.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libvtmal.so:system/lib/libvtmal.so \
     vendor/coolpad/CP8298_I00/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/coolpad/CP8298_I00/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/coolpad/CP8298_I00/proprietary/bin/akmd8975:system/bin/akmd8975 \
