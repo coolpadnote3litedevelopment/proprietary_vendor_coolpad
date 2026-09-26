@@ -249,7 +249,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/hw/camera.mt6735.so:system/lib/hw/camera.mt6735.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/hw/camera.vendor.mt6735.so:system/lib/hw/camera.vendor.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/camera.mt6735.so:system/lib64/hw/camera.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libaudiocompensationfilter.so:system/lib64/libaudiocompensationfilter.so \
