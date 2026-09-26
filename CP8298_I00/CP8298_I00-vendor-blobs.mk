@@ -50,6 +50,28 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/etc/firmware/catcher_filter_1_lwg_n.bin:system/etc/firmware/catcher_filter_1_lwg_n.bin \
     vendor/coolpad/CP8298_I00/proprietary/etc/firmware/dsp_1_lwg_n.bin:system/etc/firmware/dsp_1_lwg_n.bin \
     vendor/coolpad/CP8298_I00/proprietary/etc/firmware/modem_1_lwg_n.img:system/etc/firmware/modem_1_lwg_n.img \
+    vendor/coolpad/CP8298_I00/proprietary/bin/mtkmal:system/bin/mtkmal \
+    vendor/coolpad/CP8298_I00/proprietary/bin/volte_imcb:system/bin/volte_imcb \
+    vendor/coolpad/CP8298_I00/proprietary/bin/volte_stack:system/bin/volte_stack \
+    vendor/coolpad/CP8298_I00/proprietary/bin/volte_ua:system/bin/volte_ua \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_datamngr.so:system/lib64/libmal_datamngr.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmal_epdga.so:system/lib/libmal_epdga.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_epdga.so:system/lib64/libmal_epdga.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmal_imsmngr.so:system/lib/libmal_imsmngr.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_imsmngr.so:system/lib64/libmal_imsmngr.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmal_mdmngr.so:system/lib/libmal_mdmngr.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_mdmngr.so:system/lib64/libmal_mdmngr.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmal_nwmngr.so:system/lib/libmal_nwmngr.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_nwmngr.so:system/lib64/libmal_nwmngr.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmal_rds.so:system/lib/libmal_rds.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_rds.so:system/lib64/libmal_rds.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmal_rilproxy.so:system/lib/libmal_rilproxy.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_rilproxy.so:system/lib64/libmal_rilproxy.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmal_simmngr.so:system/lib/libmal_simmngr.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_simmngr.so:system/lib64/libmal_simmngr.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/volte_imsm.so:system/lib/volte_imsm.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
     vendor/coolpad/CP8298_I00/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/coolpad/CP8298_I00/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/coolpad/CP8298_I00/proprietary/bin/akmd8975:system/bin/akmd8975 \
