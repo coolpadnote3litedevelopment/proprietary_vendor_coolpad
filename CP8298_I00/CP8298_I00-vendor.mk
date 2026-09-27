@@ -421,7 +421,6 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/xbin/mnld:system/xbin/mnld
 
 PRODUCT_PACKAGES += \
-    libaudiopolicymanager \
     libnvram \
     YGPS \
     ImsService
