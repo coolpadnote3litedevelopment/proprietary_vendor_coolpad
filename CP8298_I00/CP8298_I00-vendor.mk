@@ -187,6 +187,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libfgauge.so:system/lib/libfgauge.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libfs_mgr.so:system/lib/libfs_mgr.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libgas.so:system/lib/libgas.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libged.so:system/lib/libged.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
@@ -350,6 +351,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libfs_mgr.so:system/lib64/libfs_mgr.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libgas.so:system/lib64/libgas.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libged.so:system/lib64/libged.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libgpu_aux.so:system/lib64/libgpu_aux.so \
