@@ -234,8 +234,8 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_vt_swip.so:system/lib/libmtk_vt_swip.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_vt_utils.so:system/lib/libmtk_vt_utils.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmtkcam_fwkutils.so:system/lib/libmtkcam_fwkutils.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libMtkH264SecVdecTLCLib.so:system/lib/libMtkH264SecVdecTLCLib.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libMtkH264SecVencTLCLib.so:system/lib/libMtkH264SecVencTLCLib.so \
@@ -417,6 +417,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/res/sound/ringtone.wav:system/res/sound/ringtone.wav \
     vendor/coolpad/CP8298_I00/proprietary/usr/idc/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libmtk_vt_swip.so:system/vendor/lib/libmtk_vt_swip.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
