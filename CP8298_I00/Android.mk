@@ -1,10 +1,10 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2026 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+# http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -17,63 +17,47 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),CP8298_I00)
-ifeq ($(MTKPATH),)
 
-# Proprietary Modules go here
-
-ifneq ($(TARGET_BUILD_VARIANT),user)
 include $(CLEAR_VARS)
-LOCAL_MODULE := MTKLogger
+LOCAL_MODULE := libaudiopolicymanager
 LOCAL_MODULE_OWNER := coolpad
-LOCAL_SRC_FILES := proprietary/app/MTKLogger/MTKLogger.apk
+LOCAL_SRC_FILES_64 := proprietary/lib64/libaudiopolicymanager.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libaudiopolicymanager.so
+LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
-endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := YGPS
 LOCAL_MODULE_OWNER := coolpad
 LOCAL_SRC_FILES := proprietary/app/YGPS/YGPS.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ImsService
 LOCAL_MODULE_OWNER := coolpad
 LOCAL_SRC_FILES := proprietary/priv-app/ImsService/ImsService.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libaudiopolicymanager
+LOCAL_MODULE := MTKLogger
 LOCAL_MODULE_OWNER := coolpad
+LOCAL_SRC_FILES := proprietary/app/MTKLogger/MTKLogger.apk
+LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 32
-LOCAL_SRC_FILES_32 := proprietary/lib/libaudiopolicymanager.so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libaudiopolicymanager
-LOCAL_MODULE_OWNER := coolpad
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 64
-LOCAL_SRC_FILES_64 := proprietary/lib64/libaudiopolicymanager.so
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 endif
-endif
-
