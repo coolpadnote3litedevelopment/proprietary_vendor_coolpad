@@ -30,6 +30,17 @@ LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libnvram
+LOCAL_MODULE_OWNER := coolpad
+LOCAL_SRC_FILES_64 := proprietary/lib64/libnvram.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libnvram.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := YGPS
 LOCAL_MODULE_OWNER := coolpad
 LOCAL_SRC_FILES := proprietary/app/YGPS/YGPS.apk

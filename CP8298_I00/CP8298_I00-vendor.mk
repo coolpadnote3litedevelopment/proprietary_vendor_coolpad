@@ -240,7 +240,6 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libn3d3a.so:system/lib/libn3d3a.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
@@ -379,7 +378,6 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libnvram.so:system/lib64/libnvram.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libnvram_daemon_callback.so:system/lib64/libnvram_daemon_callback.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libnvram_sec.so:system/lib64/libnvram_sec.so \
@@ -426,6 +424,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libaudiopolicymanager \
+    libnvram \
     YGPS \
     ImsService
 
