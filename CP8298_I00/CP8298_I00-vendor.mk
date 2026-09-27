@@ -262,7 +262,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/audio.primary.mt6735.so:system/lib64/hw/audio.primary.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/camera.mt6735.so:system/lib64/hw/camera.mt6735.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/hw/fingerprint.vendor.default.so:system/lib64/hw/fingerprint.vendor.default.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/gps.mt6735.so:system/lib64/hw/gps.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/gralloc.mt6735.so:system/lib64/hw/gralloc.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/hwcomposer.mt6735.so:system/lib64/hw/hwcomposer.mt6735.so \
