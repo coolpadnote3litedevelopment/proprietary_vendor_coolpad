@@ -1,4 +1,4 @@
-# Copyright (C) 2026 The CyanogenMod Project
+# Copyright (C) 2026 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -88,10 +88,13 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/bin/volte_imcb:system/bin/volte_imcb \
     vendor/coolpad/CP8298_I00/proprietary/bin/volte_stack:system/bin/volte_stack \
     vendor/coolpad/CP8298_I00/proprietary/bin/volte_ua:system/bin/volte_ua \
-    vendor/coolpad/CP8298_I00/proprietary/bin/vtservice:system/bin/vtservice \
     vendor/coolpad/CP8298_I00/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/coolpad/CP8298_I00/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/coolpad/CP8298_I00/proprietary/etc/factory.ini:system/etc/factory.ini \
+    vendor/coolpad/CP8298_I00/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
+    vendor/coolpad/CP8298_I00/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
+    vendor/coolpad/CP8298_I00/proprietary/etc/firmware/WIFI_RAM_CODE_6735:system/etc/firmware/WIFI_RAM_CODE_6735 \
+    vendor/coolpad/CP8298_I00/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
     vendor/coolpad/CP8298_I00/proprietary/etc/firmware/catcher_filter_1_lwg_n.bin:system/etc/firmware/catcher_filter_1_lwg_n.bin \
     vendor/coolpad/CP8298_I00/proprietary/etc/firmware/dsp_1_lwg_n.bin:system/etc/firmware/dsp_1_lwg_n.bin \
     vendor/coolpad/CP8298_I00/proprietary/etc/firmware/modem_1_lwg_n.img:system/etc/firmware/modem_1_lwg_n.img \
@@ -105,10 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/etc/firmware/mt6627/mt6627_fm_v4_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v4_patch.bin \
     vendor/coolpad/CP8298_I00/proprietary/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin \
     vendor/coolpad/CP8298_I00/proprietary/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
-    vendor/coolpad/CP8298_I00/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
-    vendor/coolpad/CP8298_I00/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
-    vendor/coolpad/CP8298_I00/proprietary/etc/firmware/WIFI_RAM_CODE_6735:system/etc/firmware/WIFI_RAM_CODE_6735 \
-    vendor/coolpad/CP8298_I00/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
     vendor/coolpad/CP8298_I00/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
     vendor/coolpad/CP8298_I00/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
     vendor/coolpad/CP8298_I00/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
@@ -120,8 +119,18 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/hw/lights.mt6735.so:system/lib/hw/lights.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/hw/memtrack.mt6735.so:system/lib/hw/memtrack.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/hw/sensors.mt6735.so:system/lib/hw/sensors.mt6735.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/lib3a.so:system/lib/lib3a.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libMtkH264SecVdecTLCLib.so:system/lib/libMtkH264SecVdecTLCLib.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libMtkH264SecVencTLCLib.so:system/lib/libMtkH264SecVencTLCLib.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libamr_wrap.so:system/lib/libamr_wrap.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libamrvt.so:system/lib/libamrvt.so \
@@ -133,14 +142,10 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libbluetooth_mtk_pure.so:system/lib/libbluetooth_mtk_pure.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libbluetooth_mtk_pure.so:system/lib/libbluetooth_mtk_pure.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libbwc.so:system/lib/libbwc.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcam.camnode.so:system/lib/libcam.camnode.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
@@ -166,11 +171,14 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcam3_hwpipeline.so:system/lib/libcam3_hwpipeline.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcam3_pipeline.so:system/lib/libcam3_pipeline.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcam3_utils.so:system/lib/libcam3_utils.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libcomutils.so:system/lib/libcomutils.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libdngop.so:system/lib/libdngop.so \
@@ -195,19 +203,14 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libhwm.so:system/lib/libhwm.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libimageio.so:system/lib/libimageio.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libimsma_rtp.so:system/lib/libimsma_rtp.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libimsma_socketwrapper.so:system/lib/libimsma_socketwrapper.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libimsma.so:system/lib/libimsma.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/liblic_divx.so:system/lib/liblic_divx.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/liblic_s263.so:system/lib/liblic_s263.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libm4u.so:system/lib/libm4u.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmal.so:system/lib/libmal.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmal_epdga.so:system/lib/libmal_epdga.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmal_imsmngr.so:system/lib/libmal_imsmngr.so \
@@ -216,7 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmal_rds.so:system/lib/libmal_rds.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmal_rilproxy.so:system/lib/libmal_rilproxy.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmal_simmngr.so:system/lib/libmal_simmngr.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libmal.so:system/lib/libmal.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmdfx.so:system/lib/libmdfx.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmdloggerrecycle.so:system/lib/libmdloggerrecycle.so \
@@ -233,48 +235,31 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_vt_utils.so:system/lib/libmtk_vt_utils.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libmtkcam_fwkutils.so:system/lib/libmtkcam_fwkutils.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libMtkH264SecVdecTLCLib.so:system/lib/libMtkH264SecVdecTLCLib.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libMtkH264SecVencTLCLib.so:system/lib/libMtkH264SecVencTLCLib.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libn3d3a.so:system/lib/libn3d3a.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libpqservice.so:system/lib/libpqservice.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libsec_mem.so:system/lib/libsec_mem.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libsink.so:system/lib/libsink.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libsource.so:system/lib/libsource.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libvt_avsync.so:system/lib/libvt_avsync.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libvt_custom.so:system/lib/libvt_custom.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libvt_socketbind.so:system/lib/libvt_socketbind.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libvtmal.so:system/lib/libvtmal.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/volte_imsm.so:system/lib/volte_imsm.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
@@ -289,9 +274,15 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/lights.mt6735.so:system/lib64/hw/lights.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/memtrack.mt6735.so:system/lib64/hw/memtrack.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/sensors.mt6735.so:system/lib64/hw/sensors.mt6735.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libMtkH264SecVdecTLCLib.so:system/lib64/libMtkH264SecVdecTLCLib.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libMtkH264SecVencTLCLib.so:system/lib64/libMtkH264SecVencTLCLib.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libacdk.so:system/lib64/libacdk.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libaed.so:system/lib64/libaed.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
@@ -303,10 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libblisrc32.so:system/lib64/libblisrc32.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libbluetooth_mtk_pure.so:system/lib64/libbluetooth_mtk_pure.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libcam_hwutils.so:system/lib64/libcam_hwutils.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libcam_mmp.so:system/lib64/libcam_mmp.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libcam_platform.so:system/lib64/libcam_platform.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libcam.camnode.so:system/lib64/libcam.camnode.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libcam.camshot.so:system/lib64/libcam.camshot.so \
@@ -332,6 +319,10 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libcam3_hwpipeline.so:system/lib64/libcam3_hwpipeline.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libcam3_pipeline.so:system/lib64/libcam3_pipeline.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libcam3_utils.so:system/lib64/libcam3_utils.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libcam_hwutils.so:system/lib64/libcam_hwutils.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libcam_mmp.so:system/lib64/libcam_mmp.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libcam_platform.so:system/lib64/libcam_platform.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libcamalgo.so:system/lib64/libcamalgo.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
@@ -359,11 +350,11 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libgui_ext.so:system/lib64/libgui_ext.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libh264enc_sa.ca7.so:system/lib64/libh264enc_sa.ca7.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libimageio_plat_drv.so:system/lib64/libimageio_plat_drv.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libimageio.so:system/lib64/libimageio.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libimageio_plat_drv.so:system/lib64/libimageio_plat_drv.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libmal.so:system/lib64/libmal.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_datamngr.so:system/lib64/libmal_datamngr.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_epdga.so:system/lib64/libmal_epdga.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_imsmngr.so:system/lib64/libmal_imsmngr.so \
@@ -372,9 +363,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_rds.so:system/lib64/libmal_rds.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_rilproxy.so:system/lib64/libmal_rilproxy.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmal_simmngr.so:system/lib64/libmal_simmngr.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libmal.so:system/lib64/libmal.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmatv_cust.so:system/lib64/libmatv_cust.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmdfx.so:system/lib64/libmdfx.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmdloggerrecycle.so:system/lib64/libmdloggerrecycle.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libminiui.so:system/lib64/libminiui.so \
@@ -386,17 +375,14 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmtk_drvb.so:system/lib64/libmtk_drvb.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmtk_mmutils.so:system/lib64/libmtk_mmutils.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmtkcamera_client.so:system/lib64/libmtkcamera_client.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libMtkH264SecVdecTLCLib.so:system/lib64/libMtkH264SecVdecTLCLib.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libMtkH264SecVencTLCLib.so:system/lib64/libMtkH264SecVencTLCLib.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libnvram.so:system/lib64/libnvram.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libnvram_daemon_callback.so:system/lib64/libnvram_daemon_callback.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libnvram_sec.so:system/lib64/libnvram_sec.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libnvram.so:system/lib64/libnvram.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libnvramagentclient.so:system/lib64/libnvramagentclient.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libperfservicenative.so:system/lib64/libperfservicenative.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
@@ -404,7 +390,6 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/librilmtk.so:system/lib64/librilmtk.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libsec_mem.so:system/lib64/libsec_mem.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
@@ -416,11 +401,26 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
     vendor/coolpad/CP8298_I00/proprietary/res/sound/ringtone.wav:system/res/sound/ringtone.wav \
     vendor/coolpad/CP8298_I00/proprietary/usr/idc/uinput-fpc.idc:system/usr/idc/uinput-fpc.idc \
+    vendor/coolpad/CP8298_I00/proprietary/bin/vtservice:system/bin/vtservice \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libcomutils.so:system/lib/libcomutils.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libimsma.so:system/lib/libimsma.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libimsma_rtp.so:system/lib/libimsma_rtp.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libimsma_socketwrapper.so:system/lib/libimsma_socketwrapper.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libmtk_vt_swip.so:system/vendor/lib/libmtk_vt_swip.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_vt_utils.so:system/lib/libmtk_vt_utils.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libmtkcam_fwkutils.so:system/lib/libmtkcam_fwkutils.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libsink.so:system/lib/libsink.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libsource.so:system/lib/libsource.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libvt_avsync.so:system/lib/libvt_avsync.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libvt_custom.so:system/lib/libvt_custom.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libvt_socketbind.so:system/lib/libvt_socketbind.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libvtmal.so:system/lib/libvtmal.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/coolpad/CP8298_I00/proprietary/xbin/mnld:system/xbin/mnld
 
