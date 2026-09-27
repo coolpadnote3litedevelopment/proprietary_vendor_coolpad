@@ -142,9 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libbluetooth_mtk_pure.so:system/lib/libbluetooth_mtk_pure.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libbwc.so:system/lib/libbwc.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcam.camnode.so:system/lib/libcam.camnode.so \
