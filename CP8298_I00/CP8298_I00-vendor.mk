@@ -118,7 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/hw/hwcomposer.mt6735.so:system/lib/hw/hwcomposer.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/hw/lights.mt6735.so:system/lib/hw/lights.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/hw/memtrack.mt6735.so:system/lib/hw/memtrack.mt6735.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/hw/sensors.mt6735.so:system/lib/hw/sensors.mt6735.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/sensors.coolpad.so:system/lib/sensors.coolpad.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/lib3a.so:system/lib/lib3a.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
@@ -270,7 +270,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/gatekeeper.mt6735.so:system/lib64/hw/gatekeeper.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/lights.mt6735.so:system/lib64/hw/lights.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/hw/memtrack.mt6735.so:system/lib64/hw/memtrack.mt6735.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/hw/sensors.mt6735.so:system/lib64/hw/sensors.mt6735.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/sensors.coolpad.so:system/lib64/sensors.coolpad.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
