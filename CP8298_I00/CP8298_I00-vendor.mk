@@ -112,7 +112,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
     vendor/coolpad/CP8298_I00/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
     vendor/coolpad/CP8298_I00/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/hw/audio.primary.mt6735.so:system/lib/hw/audio.primary.mt6735.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/hw/audio.vendor.mt6735.so:system/lib/hw/audio.vendor.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/hw/camera.vendor.mt6735.so:system/lib/hw/camera.vendor.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/hw/gps.mt6735.so:system/lib/hw/gps.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/hw/gralloc.mt6735.so:system/lib/hw/gralloc.mt6735.so \
