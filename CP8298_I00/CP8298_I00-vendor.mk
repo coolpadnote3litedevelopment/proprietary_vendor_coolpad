@@ -177,6 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libdngop.so:system/lib/libdngop.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libeffect.facebeautypp.so:system/lib/libeffect.facebeautypp.so \
@@ -199,6 +200,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/liblic_divx.so:system/lib/liblic_divx.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/liblic_s263.so:system/lib/liblic_s263.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmal.so:system/lib/libmal.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmal_epdga.so:system/lib/libmal_epdga.so \
@@ -313,6 +315,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libcvsd_mtk.so:system/lib64/libcvsd_mtk.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libdngop.so:system/lib64/libdngop.so \
+    vendor/coolpad/CP8298_I00/proprietary/lib64/libdpframework.so:system/lib64/libdpframework.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libdrmmtkutil.so:system/lib64/libdrmmtkutil.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libdrmmtkwhitelist.so:system/lib64/libdrmmtkwhitelist.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libeffect.facebeautypp.so:system/lib64/libeffect.facebeautypp.so \
@@ -384,8 +387,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libbwc.so:system/lib/libbwc.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libbwc.so:system/vendor/lib/libbwc.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libcomutils.so:system/lib/libcomutils.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
-    vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libdpframework.so:system/vendor/lib/libdpframework.so \
+    vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libdpfrmwork_o.so:system/vendor/lib/libdpfrmwork_o.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libged.so:system/lib/libged.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libged.so:system/vendor/lib/libged.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
@@ -398,7 +400,6 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libion_mtk.so:system/vendor/lib/libion_mtk.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libion_ulit.so:system/vendor/lib/libion_ulit.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libm4u.so:system/vendor/lib/libm4u.so \
     vendor/coolpad/CP8298_I00/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib/libmtk_vt_swip.so:system/vendor/lib/libmtk_vt_swip.so \
@@ -425,8 +426,7 @@ PRODUCT_COPY_FILES += \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib64/hw/hwcomposer.mt6735.so:system/vendor/lib64/hw/hwcomposer.mt6735.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib64/libbwc.so:system/vendor/lib64/libbwc.so \
-    vendor/coolpad/CP8298_I00/proprietary/lib64/libdpframework.so:system/lib64/libdpframework.so \
-    vendor/coolpad/CP8298_I00/proprietary/vendor/lib64/libdpframework.so:system/vendor/lib64/libdpframework.so \
+    vendor/coolpad/CP8298_I00/proprietary/vendor/lib64/libdpfrmwork_o.so:system/vendor/lib64/libdpfrmwork_o.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libged.so:system/lib64/libged.so \
     vendor/coolpad/CP8298_I00/proprietary/vendor/lib64/libged.so:system/vendor/lib64/libged.so \
     vendor/coolpad/CP8298_I00/proprietary/lib64/libgpu_aux.so:system/lib64/libgpu_aux.so \
